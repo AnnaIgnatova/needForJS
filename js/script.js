@@ -8,9 +8,9 @@ const score = document.querySelector('.score'),
   topScore = document.getElementById('topScore');
 
 const audio = document.createElement('embed');
-const crush = new Audio('crush.mp3');
+const crush = new Audio('./audio/crush.mp3');
 localStorage.clear();
-audio.src = 'audio.mp3';
+audio.src = './audio/audio.mp3';
 audio.style.cssText = `position: absolute; top: -1000px;`;
 
 car.classList.add('car');
